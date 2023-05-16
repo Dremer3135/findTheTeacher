@@ -47,7 +47,7 @@
   transform-origin: bottom left;
 }
 
-@media screen and (min-width: 1460px) {
+@media screen and (width >= 1460px) {
   body {
     display: flex;
     justify-content: top;
@@ -115,7 +115,7 @@
   }
 
 
-  .content-1{
+  .content-index-1{
     padding-left: 20px;
     margin-right: 50px;
     width: 500px;
@@ -126,12 +126,12 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-1-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-index-1-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-fill-mode: forwards;  
   }
 
 
-  .content-2{
+  .content-index-2{
     margin-top: 50px;
     padding-left: 20px;
     margin-left: 50px;
@@ -143,13 +143,13 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-2-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-index-2-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-delay: 200ms;
     animation-fill-mode: forwards;  
   }
 
 
-  .content-3{
+  .content-index-3{
     padding-left: 20px;
     margin-right: 150px;
     width: 500px;
@@ -158,12 +158,12 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-3-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-index-3-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-delay: 400ms;
     animation-fill-mode: forwards;  
   }
 
-  .content-4{
+  .content-about-1{
     padding-left: 20px;
     margin-left: 50px;
     width: 500px;
@@ -172,11 +172,11 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-4-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);    
+    animation: content-about-1-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);    
     animation-fill-mode: forwards;  
   }
 
-  .content-5{
+  .content-about-2{
     padding-left: 20px;
     margin-left: 200px;
     width: 500px;
@@ -185,12 +185,12 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-5-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-about-2-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-delay: 100ms;
     animation-fill-mode: forwards;  
   }
 
-  .content-6{
+  .content-about-3{
     padding-left: 20px;
     margin-left: 430px;
     width: 500px;
@@ -199,12 +199,12 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-6-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-about-3-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-delay: 200ms;
     animation-fill-mode: forwards;  
   }
 
-  .content-7{
+  .content-contact-2{
     padding-left: 20px;
     margin-right: 50px;
     width: 400px;
@@ -215,12 +215,12 @@
     opacity: 0;
     font-family: 'Lexend';
     color: rgb(126, 123, 133);
-    animation: content-7-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-contact-2-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-delay: 0ms;
     animation-fill-mode: forwards;  
   }
 
-  .content-8{
+  .content-contact-1{
     padding-left: 20px;
     padding-top: 5px;
     margin-left: 0px;
@@ -234,13 +234,13 @@
     color: rgb(126, 123, 133);
     align-items: center;
     align-content: center;
-    animation: content-8-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
+    animation: content-contact-1-load 0.75s cubic-bezier(0.1, 0, 0.1, 1);
     animation-delay: 200ms;
     animation-fill-mode: forwards;
   }
 
   
-  @keyframes content-1-load {
+  @keyframes content-index-1-load {
     0% { 
       opacity: 0;  
       margin-right: 50px;   
@@ -252,7 +252,7 @@
     }
   }
 
-  @keyframes content-2-load {
+  @keyframes content-index-2-load {
     0% { 
       opacity: 0;  
       margin-left: 50px;   
@@ -264,7 +264,7 @@
     }
   }
 
-  @keyframes content-3-load {
+  @keyframes content-index-3-load {
     0% { 
       opacity: 0;  
       margin-right: 150px;   
@@ -276,7 +276,7 @@
     }
   }
 
-  @keyframes content-4-load {
+  @keyframes content-about-1-load {
     0% { 
       opacity: 0;  
       margin-left: 50px;   
@@ -288,7 +288,7 @@
     }
   }
 
-  @keyframes content-5-load {
+  @keyframes content-about-2-load {
     0% { 
       opacity: 0;  
       margin-left: 200px;   
@@ -300,7 +300,7 @@
     }
   }
 
-  @keyframes content-6-load {
+  @keyframes content-about-3-load {
     0% { 
       opacity: 0;  
       margin-left: 430px;   
@@ -312,7 +312,7 @@
     }
   }
 
-  @keyframes content-7-load {
+  @keyframes content-contact-2-load {
     0% { 
       opacity: 0;  
       margin-right: 50px;   
@@ -324,7 +324,7 @@
     }
   }
 
-  @keyframes content-8-load {
+  @keyframes content-contact-1-load {
     0% { 
       opacity: 0;  
       margin-left: 0px;   
@@ -415,8 +415,8 @@
   }
 
   .list-unstyled-3{
-    list-style-type: none;    
-    padding-left: 0;    
+    list-style-type: none;
+    padding-left: 0;
     width: 50%;
     float: left;
     
@@ -538,12 +538,10 @@
     padding-left: 0;
   }
 
-
-  .input-mail-unfilled{
+  .input-mail{
     float: left;
     height: 25px;
-    width: 250px;
-    background-color: #323033;
+    width: 250px;    
     border:none;
     color: #d3cddb;
     font-family: 'Lexend';
@@ -552,60 +550,39 @@
     margin-left: 0px;
     border-radius: 3px;
     overflow: hidden;
-    outline: none;
-    transition: background-color 0.15s ease-out;
+    outline: none;    
   }
 
-  .input-mail-unfilled:focus{
+  .unfilled{    
+    background-color: #323033;    
+    /*transition: background-color 0.15s ease-out;*/
+  }
+
+  .unfilled:focus{
     background-color: #464349;
-    transition: background-color 0.15s ease-out;
+    /*transition: background-color 0.15s ease-out;*/
   }
 
 
-  .input-mail-filled{
-    float: left;
-    height: 25px;
-    width: 250px;
-    background-color: #3f5349;
-    border:none;
-    color: #d3cddb;
-    font-family: 'Lexend';
-    padding-left: 5px;
-    margin: 5px;
-    margin-left: 0px;
-    border-radius: 3px;
-    overflow: hidden;
-    outline: none;
+  .filled{
+    background-color: #3f5349;    
     transition: background-color 0.15s ease-out;
   }
 
-  .input-mail-filled:focus{
+  .filled:focus{
     background-color: #436b58;
     transition: background-color 0.15s ease-out;
   }
 
-  .input-mail-incorrect{
-    float: left;
-    height: 25px;
-    width: 250px;
+  .incorrect{
     background-color: #442e35;
-    border:none;
-    color: #d3cddb;
-    font-family: 'Lexend';
-    padding-left: 5px;
-    margin: 5px;
-    margin-left: 0px;
-    border-radius: 3px;
-    overflow: hidden;
-    outline: none;
     transition: background-color 0.15s ease-out;
   }
 
-  .input-mail-incorrect:focus{
+  .incorrect:focus{
     background-color: #5e3845;
     transition: background-color 0.15s ease-out;
   }
-
 
   .input-message{
     width: 368px;
@@ -809,5 +786,11 @@ ul{
 @keyframes spinner {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+
+/* vypnout scroll bar */
+::-webkit-scrollbar {
+  width: 0;/*12px;*/
 }
 

@@ -20,20 +20,19 @@ for(let i = 0; i < copyableElements.length; i++){
 
 emailInput.addEventListener('blur', async function(){
     if(emailInput.value.length == 0){      
-        emailInput.className = 'input-mail-unfilled';
+        emailInput.className = 'input-mail unfilled';
         return;
     } 
-    console.log(emailInput.value);    
     loader[0].style.opacity = 1;
     await sleep(1200);    
     loader[0].style.opacity = 0;
     if(validateEmail(emailInput.value)){
   
-        emailInput.className = 'input-mail-filled';     
+        emailInput.className = 'input-mail filled';     
     }
     else{
 
-        emailInput.className = 'input-mail-incorrect';     
+        emailInput.className = 'input-mail incorrect';     
     }
 })
 
