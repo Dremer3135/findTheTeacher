@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FTT kontakt</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon2.ico">
+</head>
+<body>
+  <nav class="topnav">
+    <a class="nvbarElmnt" href="about.html">O nás</a>
+    <a class = "nvbarElmnt" href="index.html">Domů</a>
+    <a class = "nvbarElmnt active"href="">Kontakt</a>
+  </nav>
+  <div class="grid-container">    
+    <div class="grid-element">
+        <div class="content-8">
+            <form action="/action_page.php">
+                <label for="email" class="label-mail">Email:*</label><br>
+                <input type="email" id="email" name="email" placeholder="your.mail@example.com" class="input-mail-unfilled">
+                <div class="loader"></div>
+                <br><br>
+                <label for="lname">Zpráva:*</label><br>
+                <textarea type="text" id="lname" name="message" cols="40" rows="5" class="input-message"></textarea> <br>                
+                <input type="submit" value="Odeslat" class="input-submit">
+            </form>
+        </div>
+    </div>
+    <div class="grid-element">
+      <div class="content-7">
+        <div class="tooltip-text">zkopírovat do schránky</div>
+        <h1>Kontakty</h1>
+        <ul class="contact-ul">
+            <li class="contact-li-1">
+                <h3 class="contact-person">Zaštiťovatel</h3>
+                <div class="contact-row">
+                  <p class="contact-type">Mail: </p><p class="contact-value tooltip">sperl@gchd.cz</p>
+                  
+                </div>
+                <div class="contact-row">
+                    <p class="contact-type">Telefon: </p><p class="contact-value-none">zatím neveřejný</p>
+                </div>
+            </li>
+            <li class="contact-li-2">
+                <h3 class="contact-person">Frontend programátor</h3>
+                <div class="contact-row">
+                    <p class="contact-type">Mail: </p><p class="contact-value">urbano@gchd.cz</p>
+                </div>
+                <div class="contact-row">
+                    <p class="contact-type">Telefon: </p><p class="contact-value-none">zatím neveřejný</p>
+                </div>
+            </li>
+            <li class="contact-li-3">
+                <h3 class="contact-person">Backend prográmator</h3>
+                <div class="contact-row">
+                    <p class="contact-type">Mail: </p><p class="contact-value">kozlik@gchd.cz</p>
+                </div>
+                <div class="contact-row">
+                    <p class="contact-type">Telefon: </p><p class="contact-value-none">zatím neveřejný</p>
+                </div>
+            </li>
+            <li class="contact-li-4">
+                <h3 class="contact-person">Frontend programátor</h3>
+                <div class="contact-row">
+                    <p class="contact-type">Mail: </p><p class="contact-value">vecka@gchd.cz</p>
+                </div>
+                <div class="contact-row">
+                    <p class="contact-type">Telefon: </p><p class="contact-value-none">zatím neveřejný</p>
+                </div>
+            </li>
+        </ul>         
+      </div>      
+    </div>      
+  </div>  
+  <footer class="footer">                
+    <div>
+        <div class="col-1">
+            <ul class="list-unstyled-1">
+                <li class="footer-section-title">product</li>
+                <li><a href="about.html" class="links">About Product</a></li>
+                <li><a href="" class="links">Legal Use</a></li>
+                <li><a href="" class="links">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <div class="random-kecy">
+                Tato stránka byla vytvořena jako školní projek a jejím záměrem je zlepšit informovanost o rozvrzích na <a href="https://gchd.cz/" class="links" target="_blank">Gynáziu Christiana Dopplera</a>.
+                Na této stránce naleznete informace o učebnách a učitelích, které jsou získané pouze z rozvrhů, ke kterým mají žáci po přihlášení účtem <a href="https://bakalari.cz/" class="links" target="_blank">Bakaláři</a> volý přístup.
+            </div> 
+        </div>            
+    </div>
+    <h5 class="copyright"> &copy find the teacher 2023</h5>
+</footer>
+  
+
+  <script src="scriptContact.js"></script>
+</body>
+</html>
