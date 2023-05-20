@@ -6,3 +6,9 @@ eye.addEventListener("click", function(){
     const type = passwordInput.getAttribute("type") === "password" ? "text" : "password"
     passwordInput.setAttribute("type", type)
   })
+
+document.addEventListener('keydown', function(event){
+    if(event.key === "Enter"){
+        document.querySelector(".input-submit").click()
+    }
+})
