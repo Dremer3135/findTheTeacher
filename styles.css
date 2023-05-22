@@ -1445,7 +1445,7 @@
     height: 40px;
     float:right;
     border-bottom: 2px #523e6d solid;
-    margin-right: 110px;
+    margin-right: 110px;       
   }
 
   .list-desription-element{
@@ -1465,15 +1465,17 @@
   .teacher-list{
     height: 200px;
     width: 1100px;
+    float:right;
   }
 
   .teacher-list-description-div{
-    height: 50px;
+    height: 40px;
+    
   }
 
   .teacher-list-teacher-li{
     height: 100px;
-    margin-right: 50px;
+    margin-right: 4px;
     width: 1043px;
     float: right;
     border: #5727b0 1px solid;
@@ -1709,5 +1711,22 @@ ul{
 .scroll-wiew{
   overflow:scroll; 
   height:600px;
-  width: 1200px
+  width: 1070px;
+  overflow-x: hidden;
+  margin-right: 100px;
+  padding-bottom: 10px;
+  border-bottom: 2px #523e6d solid;
 }
+
+.scroll-wiew::-webkit-scrollbar{
+  width: 5px;
+}
+
+.scroll-wiew::-webkit-scrollbar-track{
+  background-color: #423850;
+}
+
+.scroll-wiew::-webkit-scrollbar-thumb{
+  background-color: #d3cddb;
+}
+
